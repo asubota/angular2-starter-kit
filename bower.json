@@ -1,0 +1,32 @@
+{
+  "name": "Angular2-Starter-kit",
+  "version": "0.0.1",
+  "authors": [
+    "Aleksandr <asubota@cogniance.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur-runtime": "0.0.91",
+    "es6-module-loader": "0.16.6",
+    "system.js": "0.16.11",
+    "angular2-build": "2.0.0-alpha.34"
+  },
+  "overrides": {
+    "angular2-build": {
+      "main": "angular2.js"
+    },
+    "system.js": {
+      "main": "dist/system.js"
+    },
+    "es6-module-loader": {
+      "main": "dist/es6-module-loader.js"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "../.tmp/serve/app",
+    "module": "amd",
+    "target": "es5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "compileOnSave": true
+}
